@@ -1,0 +1,36 @@
+{
+  "name": "react-native-a11y-radio-buttons-group",
+  "version": "0.1.0",
+  "description": "React Native Package to use Radio Buttons and Radio Groups with accessibility options",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private":  false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hardikb19/react-native-a11y-radio-buttons-group.git"
+  },
+  "keywords": [
+    "a11y",
+    "radio-buttons",
+    "radio-group",
+    "react-native",
+    "react-radio",
+    "react-native-simple-radio-buttons",
+    "radio-buttons-group",
+    "react-native-radio-group",
+    "react-native-component",
+    "ios",
+    "android"
+  ],
+  "author": "Hardik Bharunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hardikb19/react-native-a11y-radio-buttons-group/issues"
+  },
+  "homepage": "https://github.com/Hardikb19/react-native-a11y-radio-buttons-group#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
