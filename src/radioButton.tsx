@@ -1,5 +1,6 @@
 import React from 'react';
 import { PixelRatio, Pressable, Text, View } from 'react-native';
+import { accessibilityRoleType } from './accessibilityTypes';
 
 import { RadioButtonProps } from './props';
 
@@ -37,10 +38,21 @@ export default function RadioButton({
     }
   }
 
+  const accessibilityState: AccessibilityState = {}
+  if (disabled !== undefined) {
+    accessibilityState.disabled = disabled
+    }
+
+  if (selected !== undefined) {
+    accessibilityState.checked = selected
+    }
+
   return (
     <>
       <Pressable
         {...accessibilityOptions}
+        accessibilityRole="radio"
+        accessibilityState={accessibilityState}
         onPress={handlePress}
         style={[
           {
